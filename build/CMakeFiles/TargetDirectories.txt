@@ -1,0 +1,5 @@
+/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles/edit_cache.dir
+/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles/rebuild_cache.dir
+/root/autodl-tmp/Simpleinfer/Simpleinfer/build/src/CMakeFiles/Simpleinfer_Demo.dir
+/root/autodl-tmp/Simpleinfer/Simpleinfer/build/src/CMakeFiles/edit_cache.dir
+/root/autodl-tmp/Simpleinfer/Simpleinfer/build/src/CMakeFiles/rebuild_cache.dir

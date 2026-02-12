@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o -o ../bin/Simpleinfer_Demo 
