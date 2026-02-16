@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/root/autodl-tmp/Simpleinfer/Simpleinfer/include
 
-CXX_FLAGS = -Wall -Wextra -Wpedantic -std=gnu++17
+CXX_FLAGS = -g -Wall -Wextra -Wpedantic -std=gnu++17
 

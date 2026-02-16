@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../bin/Simpleinfer_Demo"
   "../bin/Simpleinfer_Demo.pdb"
+  "CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o"
+  "CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o.d"
   "CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o"
   "CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o.d"
 )

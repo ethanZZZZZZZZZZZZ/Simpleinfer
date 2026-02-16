@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/root/autodl-tmp/Simpleinfer/Simpleinfer/src/base/base.cpp" "src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o" "gcc" "src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o.d"
   "/root/autodl-tmp/Simpleinfer/Simpleinfer/src/main.cpp" "src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o" "gcc" "src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o.d"
   )
 

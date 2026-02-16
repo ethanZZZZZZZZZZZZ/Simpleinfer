@@ -96,12 +96,12 @@ src/clean: src/CMakeFiles/Simpleinfer_Demo.dir/clean
 src/CMakeFiles/Simpleinfer_Demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Simpleinfer_Demo.dir/build.make src/CMakeFiles/Simpleinfer_Demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Simpleinfer_Demo.dir/build.make src/CMakeFiles/Simpleinfer_Demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles --progress-num=1,2 "Built target Simpleinfer_Demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles --progress-num=1,2,3 "Built target Simpleinfer_Demo"
 .PHONY : src/CMakeFiles/Simpleinfer_Demo.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Simpleinfer_Demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Simpleinfer_Demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Simpleinfer_Demo.dir/rule
