@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/root/autodl-tmp/Simpleinfer/Simpleinfer/build/src",
+  "command": "/usr/bin/c++  -I/root/autodl-tmp/Simpleinfer/Simpleinfer/include -g -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o -c /root/autodl-tmp/Simpleinfer/Simpleinfer/src/base/base.cpp",
+  "file": "/root/autodl-tmp/Simpleinfer/Simpleinfer/src/base/base.cpp"
+},
+{
+  "directory": "/root/autodl-tmp/Simpleinfer/Simpleinfer/build/src",
+  "command": "/usr/bin/c++  -I/root/autodl-tmp/Simpleinfer/Simpleinfer/include -g -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o -c /root/autodl-tmp/Simpleinfer/Simpleinfer/src/main.cpp",
+  "file": "/root/autodl-tmp/Simpleinfer/Simpleinfer/src/main.cpp"
+}
+]
