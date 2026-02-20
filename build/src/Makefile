@@ -130,6 +130,30 @@ Simpleinfer_Demo/fast:
 	cd /root/autodl-tmp/Simpleinfer/Simpleinfer/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Simpleinfer_Demo.dir/build.make src/CMakeFiles/Simpleinfer_Demo.dir/build
 .PHONY : Simpleinfer_Demo/fast
 
+base/alloc.o: base/alloc.cpp.o
+.PHONY : base/alloc.o
+
+# target to build an object file
+base/alloc.cpp.o:
+	cd /root/autodl-tmp/Simpleinfer/Simpleinfer/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Simpleinfer_Demo.dir/build.make src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o
+.PHONY : base/alloc.cpp.o
+
+base/alloc.i: base/alloc.cpp.i
+.PHONY : base/alloc.i
+
+# target to preprocess a source file
+base/alloc.cpp.i:
+	cd /root/autodl-tmp/Simpleinfer/Simpleinfer/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Simpleinfer_Demo.dir/build.make src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.i
+.PHONY : base/alloc.cpp.i
+
+base/alloc.s: base/alloc.cpp.s
+.PHONY : base/alloc.s
+
+# target to generate assembly for a file
+base/alloc.cpp.s:
+	cd /root/autodl-tmp/Simpleinfer/Simpleinfer/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Simpleinfer_Demo.dir/build.make src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.s
+.PHONY : base/alloc.cpp.s
+
 base/base.o: base/base.cpp.o
 .PHONY : base/base.o
 
@@ -187,6 +211,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Simpleinfer_Demo"
+	@echo "... base/alloc.o"
+	@echo "... base/alloc.i"
+	@echo "... base/alloc.s"
 	@echo "... base/base.o"
 	@echo "... base/base.i"
 	@echo "... base/base.s"

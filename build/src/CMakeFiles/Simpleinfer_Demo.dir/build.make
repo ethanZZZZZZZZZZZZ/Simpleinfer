@@ -69,10 +69,24 @@ include src/CMakeFiles/Simpleinfer_Demo.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/Simpleinfer_Demo.dir/flags.make
 
+src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o: src/CMakeFiles/Simpleinfer_Demo.dir/flags.make
+src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o: ../src/base/alloc.cpp
+src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o: src/CMakeFiles/Simpleinfer_Demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o"
+	cd /root/autodl-tmp/Simpleinfer/Simpleinfer/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o -MF CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o.d -o CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o -c /root/autodl-tmp/Simpleinfer/Simpleinfer/src/base/alloc.cpp
+
+src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.i"
+	cd /root/autodl-tmp/Simpleinfer/Simpleinfer/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/autodl-tmp/Simpleinfer/Simpleinfer/src/base/alloc.cpp > CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.i
+
+src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.s"
+	cd /root/autodl-tmp/Simpleinfer/Simpleinfer/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/autodl-tmp/Simpleinfer/Simpleinfer/src/base/alloc.cpp -o CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.s
+
 src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o: src/CMakeFiles/Simpleinfer_Demo.dir/flags.make
 src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o: ../src/base/base.cpp
 src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o: src/CMakeFiles/Simpleinfer_Demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o"
 	cd /root/autodl-tmp/Simpleinfer/Simpleinfer/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o -MF CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o.d -o CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o -c /root/autodl-tmp/Simpleinfer/Simpleinfer/src/base/base.cpp
 
 src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.i: cmake_force
@@ -86,7 +100,7 @@ src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.s: cmake_force
 src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o: src/CMakeFiles/Simpleinfer_Demo.dir/flags.make
 src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o: ../src/main.cpp
 src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o: src/CMakeFiles/Simpleinfer_Demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o"
 	cd /root/autodl-tmp/Simpleinfer/Simpleinfer/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o -MF CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o.d -o CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o -c /root/autodl-tmp/Simpleinfer/Simpleinfer/src/main.cpp
 
 src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.i: cmake_force
@@ -99,17 +113,19 @@ src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.s: cmake_force
 
 # Object files for target Simpleinfer_Demo
 Simpleinfer_Demo_OBJECTS = \
+"CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o" \
 "CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o" \
 "CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o"
 
 # External object files for target Simpleinfer_Demo
 Simpleinfer_Demo_EXTERNAL_OBJECTS =
 
+bin/Simpleinfer_Demo: src/CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o
 bin/Simpleinfer_Demo: src/CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o
 bin/Simpleinfer_Demo: src/CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o
 bin/Simpleinfer_Demo: src/CMakeFiles/Simpleinfer_Demo.dir/build.make
 bin/Simpleinfer_Demo: src/CMakeFiles/Simpleinfer_Demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/Simpleinfer_Demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/autodl-tmp/Simpleinfer/Simpleinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/Simpleinfer_Demo"
 	cd /root/autodl-tmp/Simpleinfer/Simpleinfer/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Simpleinfer_Demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o -o ../bin/Simpleinfer_Demo 
+/usr/bin/c++ -g CMakeFiles/Simpleinfer_Demo.dir/base/alloc.cpp.o CMakeFiles/Simpleinfer_Demo.dir/base/base.cpp.o CMakeFiles/Simpleinfer_Demo.dir/main.cpp.o -o ../bin/Simpleinfer_Demo 
